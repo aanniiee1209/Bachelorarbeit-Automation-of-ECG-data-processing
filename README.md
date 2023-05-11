@@ -1,6 +1,6 @@
 # Automation-of-ECG-data-processing
 
-## Needed imports
+## Imports
 * Matplotlib
 * Numpy
 * Pandas
@@ -13,29 +13,29 @@
 
 ## Usage
 ### bSQI-plots-stats.py
-* Erstellt die Plots (Scatterplots, Histogramm, Heatmap) für alle Messungen eines Patienten und weitere Informationen zu einzelnen Files und allen Files
- - Plots
+* Erstellt automatisch die Plots (Scatterplots, Histogramm, Heatmaps) für alle Messungen eines Patienten und weitere Informationen zu einzelnen und allen Messungen
+  - Plots
 
- * für einzelne Files
-   - File path
-   - #detected R-peaks by Hamilton
-   - #detected R-peaks by Rodrigues
-   - #detected R-peaks by Nabian
-   - Length and #samples
-   - bSQI - Hamilton & Rodrigues
-   - bSQI - Hamilton & Nabian
-   - bSQI - Rodrigues & Nabian
-   - Für jede Kombination: Average bSQI, Window classification (Very good, Good, Bad), #detected gaps by both methods
+  * für einzelne Files
+    - File path
+    - #detected R-peaks by Hamilton
+    - #detected R-peaks by Rodrigues
+    - #detected R-peaks by Nabian
+    - Length and #samples
+    - bSQI - Hamilton & Rodrigues
+    - bSQI - Hamilton & Nabian
+    - bSQI - Rodrigues & Nabian
+    - Für jede Kombination: Average bSQI, Window classification (Very good, Good, Bad), #detected gaps by both methods
 
- * für alle Messungen eines Patienten
-   - Total number of data files
-   - Total length of all data files
-   - Total number of samples
-   - Total number of detected R-peaks by Hamilton
-   - Total number of detected R-peaks by Rodrigues
-   - Total number of detected R-peaks by Nabian
-   - Total average bSQI
-   - für jede Kombination: Average bSQI, Window classification (Very good, Good, Bad), #detected gaps by both methods
+  * für alle Messungen eines Patienten
+    - Total number of data files
+    - Total length of all data files
+    - Total number of samples
+    - Total number of detected R-peaks by Hamilton
+    - Total number of detected R-peaks by Rodrigues
+    - Total number of detected R-peaks by Nabian
+    - Total average bSQI
+    - für jede Kombination: Average bSQI, Window classification (Very good, Good, Bad), #detected gaps by both methods
 
 * Example Output
 ```
