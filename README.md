@@ -73,6 +73,7 @@ Very good samples (0.8-1.0): 427
 Good samples (0.5-0.8): 13
 Bad samples (0-0.5): 1
 Both methods detected gaps in 25 (5.669%)  out of 441 10s-samples (bSQI could be corrupted)
+
 File path: /Users/.../data/ecg only/test/15.csv
 #detected R-peaks by Hamilton: 5538
 #detected R-peaks by Rodrigues: 5538
