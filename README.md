@@ -14,7 +14,7 @@
 ## Verwendung
 ### bSQI-plots-stats.py
 * Erstellt automatisch die Plots (Scatterplots, Histogramm, Heatmaps) für alle Messungen eines Patienten und gibt weitere Informationen zu einzelnen und allen Messungen aus
-  - Plots
+  * Plots: Ordner wird erstellt, in dem die Plots gespeichert werden (der Ordner befindet sich in dem Ordner mit den Messungen des Patienten)
 
   * für einzelne Messungen
     - File path
@@ -124,7 +124,7 @@ R&N all samples Corrupted: 42 (4.72%)
 ```
 
 ### bSQI-ecg.py
-* Öffnet EKG mit 10 s-Fenster Einteilung, R-peak detections der zwei verwendeten Methoden und den bSQI Werten der Fenster
+* Öffnet EKG Plot mit 10 s-Fenster Einteilung, R-peak detections der zwei verwendeten Methoden und den bSQI Werten der Fenster, scrollbar
 
 * Befehl für Terminal im Ordner mit .py file
 ```
