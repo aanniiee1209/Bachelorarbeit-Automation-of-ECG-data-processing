@@ -11,7 +11,7 @@
 * datetime, timedelta
 * Seaborn
 
-## Usage
+## Verwendung
 ### bSQI-plots-stats.py
 * Erstellt automatisch die Plots (Scatterplots, Histogramm, Heatmaps) für alle Messungen eines Patienten und weitere Informationen zu einzelnen und allen Messungen
   - Plots
@@ -42,13 +42,13 @@
 python bSQI-plots-stats.py -f <Pfad zum Ordner mit allen Messungen eines Patienten>
 
 ```
-* Example
+* Beispiel
 ```
 python bSQI-plots-stats.py -f "/Users/.../data/ecg only/pt004"
 
 ```
 
-* Example Output
+* Beispiel Output
 ```
 File path: /Users/.../data/ecg only/test/17.csv
 #detected R-peaks by Hamilton: 4267
@@ -130,14 +130,13 @@ R&N all samples Corrupted: 42 (4.72%)
 python bSQI-ecg.py -f <Pfad zu einer Messungen eines Patienten> -m1 <Methode 1> -m2 <Methode 2>
 
 ```
-* Example
+* Beispiel
 ```
 python bSQI-ecg.py -f "/Users/.../data/ecg only/pt007/movesense_ecg_20220920130534933.csv" -m1 "hamilton" -m2 "rodrigues"
 
 ```
  - Wenn nur die R-peak detection einer Methode gezeigt werden sollen, dann für -m1 und -m2 die gleiche Methode eintragen (in diesem Fall ist der bSQI für alle Fenster = 1)
- - 
-* Example
+* Beispiel
 ```
 python bSQI-ecg.py -f "/Users/.../data/ecg only/pt007/movesense_ecg_20220920130534933.csv" -m1 "hamilton" -m2 "hamilton"
 
