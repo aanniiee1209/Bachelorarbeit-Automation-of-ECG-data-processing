@@ -17,25 +17,25 @@
  - Plots
 
  * für einzelne Files
-  - File path
-  - #detected R-peaks by Hamilton
-  - #detected R-peaks by Rodrigues
-  - #detected R-peaks by Nabian
-  - Length and #samples
-  - bSQI - Hamilton & Rodrigues
-  - bSQI - Hamilton & Nabian
-  - bSQI - Rodrigues & Nabian
-  - Für jede Kombination: Average bSQI, Window classification (Very good, Good, Bad), #detected gaps by both methods
+   - File path
+   - #detected R-peaks by Hamilton
+   - #detected R-peaks by Rodrigues
+   - #detected R-peaks by Nabian
+   - Length and #samples
+   - bSQI - Hamilton & Rodrigues
+   - bSQI - Hamilton & Nabian
+   - bSQI - Rodrigues & Nabian
+   - Für jede Kombination: Average bSQI, Window classification (Very good, Good, Bad), #detected gaps by both methods
 
  * für alle Messungen eines Patienten
-  - Total number of data files
-  - Total length of all data files
-  - Total number of samples
-  - Total number of detected R-peaks by Hamilton
-  - Total number of detected R-peaks by Rodrigues
-  - Total number of detected R-peaks by Nabian
-  - Total average bSQI
-  - für jede Kombination: Average bSQI, Window classification (Very good, Good, Bad), #detected gaps by both methods
+   - Total number of data files
+   - Total length of all data files
+   - Total number of samples
+   - Total number of detected R-peaks by Hamilton
+   - Total number of detected R-peaks by Rodrigues
+   - Total number of detected R-peaks by Nabian
+   - Total average bSQI
+   - für jede Kombination: Average bSQI, Window classification (Very good, Good, Bad), #detected gaps by both methods
 
 * Example Output
 ```
