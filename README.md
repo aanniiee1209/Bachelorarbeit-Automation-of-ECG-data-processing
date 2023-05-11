@@ -137,7 +137,7 @@ python bSQI-ecg.py -f "/Users/.../data/ecg only/pt007/movesense_ecg_202209201305
 
 ```
 <br>
- - Wenn nur die R-peak detection einer Methode gezeigt werden sollen, dann für -m1 und -m2 die gleiche Methode eintragen (in diesem Fall ist der bSQI für alle Fenster = 1)
+* Wenn nur die R-peak detection einer Methode gezeigt werden sollen, dann für -m1 und -m2 die gleiche Methode eintragen (in diesem Fall ist der bSQI für alle Fenster = 1)
 * Beispiel
 ```
 python bSQI-ecg.py -f "/Users/.../data/ecg only/pt007/movesense_ecg_20220920130534933.csv" -m1 "hamilton" -m2 "hamilton"
