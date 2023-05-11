@@ -13,7 +13,7 @@
 
 ## Verwendung
 ### bSQI-plots-stats.py
-* Erstellt automatisch die Plots (Scatterplots, Histogramm, Heatmaps) für alle Messungen eines Patienten und weitere Informationen zu einzelnen und allen Messungen
+* Erstellt automatisch die Plots (Scatterplots, Histogramm, Heatmaps) für alle Messungen eines Patienten und gibt weitere Informationen zu einzelnen und allen Messungen aus
   - Plots
 
   * für einzelne Messungen
